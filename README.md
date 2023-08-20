@@ -1,4 +1,4 @@
-# wordpress-template
+# vue-3-wordpress-template
 
 This template should help get you started developing with Vue 3 in Vite in Wordpress.
 
@@ -8,11 +8,7 @@ This template should help get you started developing with Vue 3 in Vite in Wordp
 - Dowload and install MAMP (Mac)
 - Run local server
 - Clone this repo into wp-content/themes folder
-- run webpack compiler when change is made and refresh page
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Run webpack compiler when change is made and refresh page
 
 ## Project Setup
 
@@ -35,4 +31,3 @@ npm install babel-loader css-loader
 ```sh
 npx webpack --mode production
 ```
-
