@@ -22,7 +22,7 @@ This template should help get you started developing with Vue 3 in Vite in Wordp
 When you make a change to any of the code, before you commit:
 ### 1. Generate tailwind classes to main.css 
 ```sh
-npx tailwindcss -i ./src/assets/tailwind.css -o ./src/assets/main.css --watch
+npx tailwindcss -i ./src/assets/tailwind.css -o ./src/assets/tailwindClasses.css --watch
 ```
 ### 2. Bundle main.js using webpack compiler
 ```sh
