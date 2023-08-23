@@ -8,6 +8,8 @@ add_action( 'wp_enqueue_scripts', 'theme_js' );
 
 function theme_styles() {
     wp_enqueue_style( 'main_css', get_template_directory_uri() . '/src/assets/main.css' );
+
+    wp_enqueue_style( 'tailwind_classes_css', get_template_directory_uri() . '/src/assets/tailwindClasses.css' );
     
     wp_enqueue_style( 'tailwind_css', get_template_directory_uri() . '/src/assets/tailwind.css' );
 }

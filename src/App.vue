@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView, useRouter } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import Button from './components/Button.vue'
 
 const router = useRouter()
 
@@ -8,17 +9,21 @@ const pushRoute = (name) => router.push({ name: name })
 </script>
 
 <template>
-  <header>
+  <header class="px-12 pt-12 pb-4">
 
-    <div class="bg-gray-900">
-      <HelloWorld msg="hello!" />
+    <div>
+      <HelloWorld msg="Welcome To Shaun's Vue-X-Wordpress Template!" />
 
-      <nav>
-        <button style="background: blue;" @click="pushRoute('home')">Hello</button>
+      <nav class="flex gap-2">
+        <button @click="pushRoute('home')">Hello</button>
         <button @click="pushRoute('about')">About</button>
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <div class="px-8">
+    <RouterView />
+  </div>
+
+  <Button></Button>
 </template>
