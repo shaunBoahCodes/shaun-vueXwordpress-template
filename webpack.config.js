@@ -7,6 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), // Output directory
     filename: 'bundle.js', // Output filename
   },
+  resolve: {
+    extensions: ['.js', '.jsx', '.vue', '.json'],
+  },
   module: {
     rules: [
       {
